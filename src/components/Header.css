@@ -5,6 +5,7 @@ header {
     align-items: center;
     gap: 6px;
     height: 55px;
+    /* border: 2px solid blue; */
 }
 
 #logo {

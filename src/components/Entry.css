@@ -1,0 +1,86 @@
+article {
+    color: black;
+    /* border: 2px solid blue; */
+}
+
+.journal-entry {
+    display: flex;
+    gap: 20px;
+}
+
+.main-image-container {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    /* border: 2px solid blue; */
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#location-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#location-line>a {
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #918E9B;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+
+#location-line-place {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+}
+
+#location-line-place>p {
+    font-size: 10px;
+    color: #2B283A;
+    letter-spacing: 0.17rem;
+    /* margin: 0; */
+}
+
+#pin {
+    width: 7px;
+}
+
+#title-main {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 25px;
+    color: #2B283A;
+    margin-bottom: 16px;
+}
+
+#date {
+    font-weight: 700;
+    font-size: 10px;
+    color: #2B283A;
+    margin: 0;
+}
+
+#description {
+    font-weight: 400;
+    font-size: 10px;
+    color: #2B283A;
+    line-height: 150%;
+    margin-bottom: 0;
+}
