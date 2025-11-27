@@ -1,5 +1,5 @@
 import './Header.css'
-import globe from '/src/assets/globe.png'
+import globe from '../assets/globe.png'
 
 export default function Header() {
     return (
