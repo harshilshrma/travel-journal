@@ -1,8 +1,12 @@
+import japanImage from './assets/japan.png'
+import australiaImage from './assets/australia.png'
+import norwayImage from './assets/norway.png'
+
 export default [
     {
         id: 1,
         img: {
-            src: "src/assets/japan.png",
+            src: japanImage,
             alt: "Mount Fuji"
         },
         title: "Mount Fuji",
@@ -14,7 +18,7 @@ export default [
     {
         id: 2,
         img: {
-            src: "src/assets/australia.png",
+            src: australiaImage,
             alt: "Sydney Opera House"
         },
         title: "Sydney Opera House",
@@ -26,7 +30,7 @@ export default [
     {
         id: 3,
         img: {
-            src: "src/assets/norway.png",
+            src: norwayImage,
             alt: "Geirangerfjord"
         },
         title: "Geirangerfjord",

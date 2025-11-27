@@ -1,4 +1,5 @@
 import './Entry.css'
+import pinIcon from '../assets/pin.svg'
 
 export default function Entry(props) {
     return (
@@ -10,7 +11,7 @@ export default function Entry(props) {
             <div id="main-content">
                 <div id="location-line">
                     <div id="location-line-place">
-                        <img src="/src/assets/pin.svg" id="pin" />
+                        <img src={pinIcon} id="pin" alt="Location pin" />
                         <p>{props.obj.country}</p>
                     </div>
                     <a href={props.obj.googleMapsLink} target="_blank">View on Google Maps</a>
