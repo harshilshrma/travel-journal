@@ -1,6 +1,6 @@
 # Travel Journal — Learning Project (screenshots below)
 
-Live Demo: https://travel-journal-harshil.vercel.app  
+Live Demo: https://travel-journal-mu-six.vercel.app/  
 
 **Note:** This was a pure learning project. No AI code tools, generators, or autopilot were used. Every line of code was written manually to build real hands-on React experience.
 
