@@ -4,3 +4,11 @@
     margin: 0 auto;
     /* border: 2px solid blue; */
 }
+
+#entry-container {
+    margin: 20px 40px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

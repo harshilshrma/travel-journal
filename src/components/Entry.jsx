@@ -1,24 +1,24 @@
 import './Entry.css'
 
-export default function Entry() {
+export default function Entry(props) {
     return (
         <article className="journal-entry">
             <div className="main-image-container">
-                <img src="/src/assets/japan.png" className="main-image" alt="japan" />
+                <img src={props.obj.img.src} className="main-image" alt={props.obj.img.alt} />
             </div>
 
             <div id="main-content">
                 <div id="location-line">
                     <div id="location-line-place">
-                        <img src="/src/assets/pin.svg" id="pin"/>
-                        <p>JAPAN</p>
+                        <img src="/src/assets/pin.svg" id="pin" />
+                        <p>{props.obj.country}</p>
                     </div>
-                    <a>View on Google Maps</a>
+                    <a href={props.obj.googleMapsLink} target="_blank">View on Google Maps</a>
                 </div>
 
-                <h1 id="title-main">Mount Fuji</h1>
-                <p id="date">12 Jan, 2023 - 24 Jan, 2023</p>
-                <p id="description">Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+                <h1 id="title-main">{props.obj.title}</h1>
+                <p id="date">{props.obj.dates}</p>
+                <p id="description">{props.obj.text}</p>
             </div>
         </article>
     );
